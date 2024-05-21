@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+.letra {
+        font-family: "Tilt Neon", sans-serif;
+        font-optical-sizing: auto;
+}
+
+.letra2 {
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+}
+
 p {
     font-size: 1.5vw;
 }
@@ -6,8 +18,15 @@ h1 {
     font-size: 3vw;
 }
 
+
 .verde {
     background-color: green;
+    position: absolute;
+    top: 10%;
+    z-index: 1000; /* Lo que hace es que la navbar este encima de la imagen del principio*/
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid; color: black;
 }
 
 .logoheader {
@@ -23,18 +42,342 @@ h1 {
     color: red;
 }
 
+
 .quien {
     text-align: justify;
-    margin-left: 5%;
     width: 50%;
+    margin-left: 5%;
+    padding-top: 4%;
+}
+
+.quien2 {
+    text-align: justify;
+    margin-left: 5%;
     padding: 2%;
 }
 
+.quien p{
+    font-size: 150%;
+}
+
 .sectioquien {
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.sectioquien2 {
     display: flex;
     width: 100%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
+
 .quienlogo {
     padding: 5%;
     width: 35vw;
+}
+
+.header-portada {
+    width: 100%;
+    height: 80vh;
+    background-image: url('../img/imagen1.png'); /* Ruta de la imagen */
+    background-size: cover;
+}
+.header-portada2 {
+    width: 100%;
+    height: 75vh;
+    background-image: url('../img/imagen5.png'); /* Ruta de la imagen */
+    background-size: cover;
+}
+
+.header-portada3 {
+  width: 100%;
+  height: 75vh;
+  background-image: url('../img/imagen20.png'); /* Ruta de la imagen */
+  background-size: cover;
+}
+
+.titulo1{
+    text-align: center;
+    padding-top: 23%;
+}
+
+.titulo1 h1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(52, 52, 52, 0.75);
+    margin-right: 55%;
+    margin-left: 15%;
+    font-size: 390%;
+    border: 1px solid; color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.prefooter{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(1, 86, 1);
+}
+
+
+.prefooter img{
+    width: 3%;
+    margin: 3%;
+}
+
+
+.parte1{
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+.parte2 p{
+
+    font-size: 150%;
+    padding-top: 2%;
+}
+
+.parte2 h1{
+
+  padding-top: 8%;
+}
+
+.texto-verde {
+    color: green;
+}
+
+
+  #boton{
+    background-color: rgb(89, 184, 54);
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  #boto{
+    background-color: rgb(89, 184, 54);
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 4%;
+  }
+
+  .boton1{
+    padding-top: 3%;
+    padding-bottom: 9%;
+  }
+
+  .ico{
+    padding-top: 4%;
+    background-color: rgb(241, 241, 241);
+    }
+  
+
+  .iconos{
+    width: 28%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .iconos2{
+    width: 26%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .text-ico{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+  }
+
+  .text-ico p{
+    padding-left: 7%;
+  }
+  #text-ico2{
+    padding-left: 15%;
+
+  }
+
+  #soci{
+    background-color: rgb(254, 152, 49);
+    border: 3px solid; color: rgb(0, 0, 0);
+
+  }
+
+  #floatingInput{
+
+    border: 1px solid; color: rgb(0, 0, 0);
+
+  }
+
+  .info2{
+    padding-top: 12%;
+    text-align: center;
+  }
+
+  .info1{
+    text-align: center;
+    font-size: 150%;
+    padding-top: 2%;
+  }
+
+
+
+  #email{
+    margin-top: 5%;
+  }
+
+
+  #carouselExampleCaptions{
+    border: 3px solid; color: rgb(93, 185, 13);
+  }
+
+  .titulonoticias{
+    padding: 4%;
+    color: rgb(93, 185, 13);    
+  }
+  
+
+
+  .parte1-contacto{
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+
+  }
+
+  .parte2-contacto p{
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+
+  }
+
+  #fila1{
+    width: 100%;
+    display: flex;
+  }
+
+  #col1-fila1{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 3%;
+  }
+
+  #col2-fila1{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 3%;
+  }
+  
+  .fila2{
+    width: 100%;
+    
+    display: flex;
+    margin-top: 5%;
+  }
+
+  #col1-fila2{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 3%;
+  
+  }
+
+  #col2-fila2{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #col2-fila3{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 3%;
+  }
+
+  .iconors{
+    width: 25%;
+    padding: 5%;
+  }
+
+  
+  .iconors2{
+    width: 55%;
+    padding: 5%;
+  }
+
+  #contactotxt{
+    padding: 5%;
+  }
+
+  .divheader {
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    background-color: rgba(93, 185, 13, 0.5);
+    margin-left: 25%;
+    width: 50%;
+    padding: 3%;
+}
+
+.transmitir {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: justify;
+}
+
+.transmitir h1,
+.transmitir h2 {
+  color: rgb(93, 185, 13);
+}
+
+.bloqueo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.bloqueo img {
+  width: 25%;
+  margin-right: 3%;
+  margin-left: 3% 
+}
+
+.bloqueo p {
+  width: 75%;
+  margin: 0;
+}
+
+
+.divheader2 {
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+  background-color: rgba(93, 185, 13, 0.5);
+  margin-right: 10%;
+  margin-left: 5%;
+  width: 50%;
+  padding: 3%;
 }
