@@ -416,14 +416,32 @@ h1 {
   width: 100%;
 }
 .product-description {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 #card2 img{
   width: 87%;
 }
 
+#card6 img{
+  width: 80%;
+  padding-top: 6.5%;
+  padding-bottom: 20%;
+}
 
 .til{
   text-align: center;
   padding-top: 3%;
+}
+.til2{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.product-description{
+  font-size: 100%;
+}
+
+.card-title{
+  text-align: center;
 }
