@@ -238,7 +238,7 @@ h1 {
 
 
 
-  #email{
+  #email2{
     margin-top: 5%;
   }
 
@@ -508,5 +508,45 @@ h1 {
 
 .LinkPaneles {
   color: white;
-  font-size 24%;
+}
+
+
+body {
+  background-color: #f8f9fa;
+  
+}
+#container {
+  width: 600px;
+  margin-top: 3rem;
+  background: #ffffff;
+  padding: 2%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-title {
+  text-align: center;
+  color: #1a5f20;
+}
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.prefooter2{
+  text-align: center;
+  width: 100%;
+  background-color: rgb(1, 86, 1);
+  margin-top: 5%;
+}
+
+
+.prefooter2 img{
+  width: 3%;
+  margin: 3%;
 }
