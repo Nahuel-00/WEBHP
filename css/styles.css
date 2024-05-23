@@ -476,6 +476,8 @@ h1 {
 .fondogris {
   background-color: rgb(241, 241, 241);
 }
+
+
 #pago{
   padding: 4%;
   background-color: rgb(93, 185, 13);
@@ -671,5 +673,47 @@ body {
   margin-top: 30%;
 }
 
+#pago{
+  padding: 4%;
+  background-color: rgb(93, 185, 13);
+}
+
+#pago-titulo{
+  padding: 2%;
+  padding-left: 0%;
+  font-size: 125%;
+  width: 100%;
+}
+
+.pago-info{
+  padding: 1%;
+  font-size: 85%;
+  padding-top: 2%;
+ padding-left: 0%;
+}
+
+#pago-todo{
+  display: block;
+}
+
+#pago-texto{
+  width: 100%;
+}
+
+#pago-foto{
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+#pago-foto img{
+  width: 75%;
+  padding-bottom: 1%;
+}
+
+#pago-confirmar{
+  background-color: rgb(233, 99, 99);
+  text-align: center;
+  width: 75%;
+}
 
 }
