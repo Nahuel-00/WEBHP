@@ -678,7 +678,14 @@ body {
 }
 
 .divheader2, .divheader {
-  margin-top: 30%;
+  margin-top: 50%;
+  height: 30%;
+  align-content: center;
+  
+}
+
+.parte2{
+  font-size: 75%;
 }
 
 #pago{
@@ -693,6 +700,17 @@ body {
   width: 100%;
 }
 
+.iconos, .iconos2{
+  width: 30%;
+}
+
+.info2{
+  font-size: 175%;
+}
+
+.info1{
+  font-size: 100%;
+}
 .pago-info{
   padding: 1%;
   font-size: 85%;
